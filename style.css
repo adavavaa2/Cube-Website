@@ -1,3 +1,4 @@
+```css
 * {
     margin: 0;
     padding: 0;
@@ -8,146 +9,119 @@
 
 body {
 
-    background: #09090b;
+    min-height: 100vh;
+    background: #0b080f;
     color: white;
 
 }
 
 
 
-/* HEADER */
+/* Navigation */
 
 
 header {
 
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    padding: 0 8%;
-
-    background: #111114;
-
-    border-bottom: 1px solid #7c3aed;
+    padding: 35px;
 
 }
 
 
+nav {
 
-.logo {
-
-    font-size: 32px;
-    font-weight: bold;
-
-    color: #a855f7;
+    text-align: center;
 
 }
-
 
 
 nav a {
 
-    color: white;
-
+    color: #e0b7ff;
     text-decoration: none;
 
-    margin-left: 30px;
+    margin: 0 20px;
+
+    font-size: 17px;
 
     transition: 0.3s;
 
 }
 
 
-
 nav a:hover {
 
-    color: #a855f7;
+    color: #f0cfff;
 
 }
 
 
 
 
-
-/* HERO */
+/* Hauptbereich */
 
 
 .hero {
 
-    height: 600px;
-
-    display: flex;
-
-    justify-content: center;
-
-    align-items: center;
-
     text-align: center;
 
-
-    background:
-
-    radial-gradient(
-        circle,
-        #3b0764,
-        #09090b 60%
-    );
+    margin-top: 100px;
 
 }
-
-
 
 
 .hero h1 {
 
-    font-size: 70px;
+    font-size: 55px;
+
+    color: #d28cff;
 
 }
-
-
-
-.hero span {
-
-    color: #a855f7;
-
-}
-
 
 
 .hero p {
 
     margin-top: 20px;
 
-    font-size: 22px;
+    color: #cbb5d8;
 
-    color: #c4c4c4;
+    font-size: 20px;
 
 }
 
 
 
 
-button {
+
+/* Buttons */
+
+
+.buttons {
 
     margin-top: 40px;
 
+}
+
+
+
+button {
+
     padding: 15px 40px;
+
+    margin: 10px;
 
     border: none;
 
     border-radius: 12px;
 
+    background: #d28cff;
 
-    background: #7c3aed;
+    color: #12091a;
 
-    color: white;
+    font-size: 17px;
 
-
-    font-size: 18px;
+    font-weight: bold;
 
     cursor: pointer;
-
 
     transition: 0.3s;
 
@@ -157,7 +131,7 @@ button {
 
 button:hover {
 
-    background: #a855f7;
+    background: #edb6ff;
 
     transform: scale(1.05);
 
@@ -165,21 +139,27 @@ button:hover {
 
 
 
+.discord {
+
+    background: #c77dff;
+
+}
 
 
-/* CARDS */
 
 
-.features {
+/* Karten */
+
+
+.cards {
 
     display: flex;
 
     justify-content: center;
 
-    gap: 30px;
+    gap: 25px;
 
-    padding: 80px 10%;
-
+    margin-top: 90px;
 
 }
 
@@ -187,30 +167,30 @@ button:hover {
 
 .card {
 
-    background: #18181b;
+    width: 280px;
 
-    padding: 35px;
+    padding: 30px;
+
+    text-align: center;
+
+
+    background: rgba(210,140,255,0.10);
+
+
+    border: 1px solid rgba(210,140,255,0.35);
+
 
     border-radius: 20px;
-
-
-    width: 300px;
-
-
-    border: 1px solid #27272a;
-
-
-    transition: 0.3s;
 
 }
 
 
 
-.card:hover {
+.card h2 {
 
-    border-color: #a855f7;
+    color: #dfa0ff;
 
-    transform: translateY(-10px);
+    margin-bottom: 15px;
 
 }
 
@@ -218,51 +198,21 @@ button:hover {
 
 .card p {
 
-    margin-top: 15px;
-
-    color: #bdbdbd;
+    color: #cfc1d8;
 
 }
 
 
 
-
-
-
-/* DOWNLOAD */
-
-
-.download {
-
-    text-align: center;
-
-    padding: 100px;
-
-
-    background: #111114;
-
-}
-
-
-
-.download h2 {
-
-    font-size: 45px;
-
-}
-
-
-
-
-/* FOOTER */
 
 
 footer {
 
-    padding: 30px;
-
     text-align: center;
 
-    color: #777;
+    margin-top: 80px;
+
+    color: #8f8298;
 
 }
+```
